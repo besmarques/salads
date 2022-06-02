@@ -1,17 +1,47 @@
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
-			demo: [
+			base: [
 				{
-					title: "FIRST",
-					background: "white",
-					initial: "white"
+					title: "Lettuce",
+					image: "someurl",
+					description: "white"
 				},
 				{
-					title: "SECOND",
-					background: "white",
-					initial: "white"
-				}
+					title: "Spinach",
+					image: "someurl",
+					description: "white"
+				},
+				{
+					title: "Kale",
+					image: "someurl",
+					description: "white"
+				},
+				{
+					title: "Chard",
+					image: "someurl",
+					description: "white"
+				},
+				{
+					title: "Collards",
+					image: "someurl",
+					description: "white"
+				},
+				{
+					title: "Arugula",
+					image: "someurl",
+					description: "white"
+				},
+				{
+					title: "Pea Shoots",
+					image: "someurl",
+					description: "white"
+				},
+				{
+					title: "Cabbage",
+					image: "someurl",
+					description: "white"
+				},
 			]
 		},
 		actions: {

@@ -11,11 +11,15 @@ import Dressing from "../component/dressing.jsx";
 
 export const Home = () => (
 	<>
-	<Base />
-	<Crunchy />
-	<Soft />
-	<Unexpected />
-	<Protein />
-	<Dressing />
+		<div className="container-fluid">
+			<div className="row pt-3 pb-3 d-flex justify-content-center">
+				<Base />
+			</div>
+			<Crunchy />
+			<Soft />
+			<Unexpected />
+			<Protein />
+			<Dressing />
+		</div>
 	</>
 );
